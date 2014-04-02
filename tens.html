@@ -4,7 +4,11 @@
 </head>
 <body>
 	<script>
-		for (var i = 100; i>=0; i=i-10) {
+		for (var i = 100; i>=0; i=i-10)
+		if (i==50) {
+			i=i
+		}
+			else {
 			console.log(i)
 		};
 	</script>
